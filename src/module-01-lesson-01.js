@@ -125,3 +125,81 @@
 // calculateSum();
 
 /////////////////////////////////////////////////////////////////////////////////////////////
+
+// 1. Яким буде результат виразів?
+// console.log(5 > 4); //true
+
+// console.log(10 >= '7'); //true
+
+// console.log('2' > '12'); //true
+
+// console.log('2' < '12'); //false
+
+// console.log('4' == 4); //true
+
+// console.log('6' === 6); //false
+
+// console.log('false' === false); //false
+
+// console.log(1 == true);
+
+// console.log(1 === true);
+
+// console.log('0' == false);
+
+// console.log('0' === false);
+
+// console.log('Papaya' < 'papaya');
+
+// console.log('Papaya' === 'papaya');
+
+// console.log(undefined == null);
+
+// console.log(undefined === null);
+
+// console.log(typeof null);
+
+// console.log(typeof NaN);
+
+// console.log(typeof Infinity);
+
+// console.log(typeof +'1');
+
+// console.log(typeof 'undefined');
+
+// Яким буде результат виразів?
+// console.log(true && 3); //true
+
+// console.log(false && 3); //false
+
+// console.log(true && 4 && 'kiwi'); //kivi
+
+// console.log(true && 0 && 'kiwi'); //0
+
+// console.log(true && true); //t
+
+// console.log(false && true); //f
+
+// console.log(true && false); //f
+
+// console.log(false && false); //f
+
+// console.log(true || true); //t
+
+// console.log(false || true); //t
+
+// console.log(true || false); //t
+
+// console.log(false || false); //f
+
+// console.log(true || 3); //t
+
+// console.log(true || 3 || 4); //t
+
+// console.log(true || false || 7); //t
+
+// console.log(null || 2 || undefined); //2
+
+// console.log((1 && null && 2) > 0); //f
+
+// console.log(null || (2 && 3) || 4); //3
