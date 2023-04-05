@@ -90,3 +90,38 @@
 // console.log(abbrevName('Sam Harris'));
 // console.log(abbrevName('Patrick Feeney'));
 ////////////////////////////////////////////////////////////////////////////////////////////////
+// 3. Напиши функцію protectEmail, щоб захистити свій емейл від неавторизованого користувача. Половина емейла (до @) повинна замінитися на три крапки.
+// Input: robin_singh@example.com Expected result: robin...@example.com
+
+// function protectEmail(email) {
+//   const splitEmail = email.split('@');
+//   const emailStart = splitEmail[0];
+//   const emailLength = emailStart.length / 2;
+//   const visibleEmail = emailStart.slice(0, emailLength);
+//   console.log(visibleEmail);
+//   return `${visibleEmail}...@${splitEmail[1]}`;
+// }
+
+// console.log(protectEmail('robin_singh@gmail.com'));
+// console.log(protectEmail('jimmyMc@gmail.com'));
+// console.log(protectEmail('spr@yahoo.com'));
+////////////////////////////////////////////////////////////////////////////////////////////////
+
+// 4. Створіть функцію notBad, яка приймає один аргумент, рядок. Він повинен знайти першу появу підрядка «not» і «bad». Якщо «bad» слідує за «not», тоді він має замінити весь підрядок «not»...«bad» на good та повернути результат. Якщо він не знаходить «not» і «bad» у правильній послідовності (або взагалі), просто повертає вихідне речення.
+// function notBad(sentence) {}
+
+// console.log(notBad('This dinner is not that bad!'));
+// console.log(notBad('This movie is not so bad!'));
+// console.log(notBad('This dinner is bad!'));
+
+//////////////////////////////////////////////////////////////////////////////////////////////
+
+// 1. Напиши функцію, яка просить користувача ввести 2 числа і додає їх, результат вивести в алертом.
+// function calculateSum() {
+//   const num1 = prompt('input first number');
+//   const num2 = prompt('input second number');
+//   alert(Number(num1) + Number(num2));
+// }
+// calculateSum();
+
+/////////////////////////////////////////////////////////////////////////////////////////////
